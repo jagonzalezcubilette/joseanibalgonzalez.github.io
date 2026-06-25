@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Anibal González Cubilette | Portafolio Profesional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%); }
+        .card-hover { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white min-h-screen flex items-center">
+        <div class="max-w-5xl mx-auto px-6 py-24 text-center">
+            <div class="mb-8">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm mb-6">
+                    <div class="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></div>
+                    Disponible para oportunidades en IA y Ciberseguridad
+                </div>
+            </div>
+            <h1 class="text-6xl md:text-7xl font-bold tracking-tight mb-6">
+                José Anibal<br>González Cubilette
+            </h1>
+            <p class="text-2xl md:text-3xl text-slate-300 mb-8 max-w-2xl mx-auto">
+                Ingeniero en Ciberseguridad • UNICARIBE<br>
+                Especialista en <span class="text-emerald-400">Inteligencia Artificial</span> y <span class="text-emerald-400">Automatización</span>
+            </p>
+            <p class="max-w-xl mx-auto text-lg text-slate-400 leading-relaxed">
+                Desarrollador Full Stack con enfoque en soluciones de IA aplicada, automatización inteligente y seguridad cibernética. Construyendo sistemas robustos y escalables para el futuro digital.
+            </p>
+            <div class="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#proyectos" class="bg-white text-slate-900 hover:bg-slate-100 px-8 py-4 rounded-xl font-semibold text-lg inline-flex items-center justify-center gap-3">
+                    Ver Proyectos
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+                <a href="https://github.com/joseanibalgonzalez" target="_blank" class="border border-white/50 hover:bg-white/10 px-8 py-4 rounded-xl font-semibold text-lg inline-flex items-center justify-center gap-3">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Panel de Evidencia -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-4xl font-semibold mb-12 text-center">Evidencia Académica</h2>
+            <div class="bg-slate-100 rounded-3xl p-10 flex flex-col md:flex-row items-center gap-8">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-semibold mb-4">Ingeniería en Ciberseguridad</h3>
+                    <p class="text-slate-600">Universidad del Caribe (UNICARIBE)</p>
+                    <div class="mt-6">
+                        <a href="https://www.unicaribe.edu.do/" target="_blank" class="inline-flex items-center gap-3 text-emerald-600 hover:text-emerald-700 font-medium">
+                            Ver constancia oficial 
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-shrink-0">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm text-center">
+                        <i class="fas fa-graduation-cap text-6xl text-emerald-500 mb-4"></i>
+                        <p class="font-mono text-sm text-slate-500">Constancia verificable</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Activos -->
+    <section id="proyectos" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-4xl font-semibold mb-4 text-center">Proyectos Activos</h2>
+            <p class="text-center text-slate-400 mb-16 max-w-md mx-auto">Soluciones de IA y automatización en desarrollo activo</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Sentinel AI -->
+                <a href="https://github.com/joseanibalgonzalez/sentinel-ai" target="_blank" class="card-hover block bg-slate-800 rounded-3xl overflow-hidden group">
+                    <div class="h-2 bg-gradient-to-r from-emerald-400 to-cyan-400"></div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-6">
+                            <div>
+                                <h3 class="text-2xl font-semibold">Sentinel AI</h3>
+                                <p class="text-emerald-400 text-sm">Monitoreo Inteligente</p>
+                            </div>
+                            <i class="fas fa-shield-alt text-4xl text-slate-600 group-hover:text-emerald-400 transition-colors"></i>
+                        </div>
+                        <p class="text-slate-400 line-clamp-4">Sistema de detección y respuesta ante amenazas cibernéticas impulsado por IA.</p>
+                        <div class="mt-8 text-xs uppercase tracking-widest text-slate-500 flex items-center gap-2">
+                            <span class="px-3 py-1 bg-slate-700 rounded-full">Python</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full">ML</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full">Cybersec</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Nova Marketing Bot -->
+                <a href="https://github.com/joseanibalgonzalez/nova-marketing-bot" target="_blank" class="card-hover block bg-slate-800 rounded-3xl overflow-hidden group">
+                    <div class="h-2 bg-gradient-to-r from-violet-400 to-fuchsia-400"></div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-6">
+                            <div>
+                                <h3 class="text-2xl font-semibold">Nova Marketing Bot</h3>
+                                <p class="text-violet-400 text-sm">Automatización de Marketing</p>
+                            </div>
+                            <i class="fas fa-robot text-4xl text-slate-600 group-hover:text-violet-400 transition-colors"></i>
+                        </div>
+                        <p class="text-slate-400 line-clamp-4">Bot inteligente para generación y distribución de contenido marketing automatizado.</p>
+                        <div class="mt-8 text-xs uppercase tracking-widest text-slate-500 flex items-center gap-2">
+                            <span class="px-3 py-1 bg-slate-700 rounded-full">LLM</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full">Automation</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Hermes Analysis Bot -->
+                <a href="https://github.com/joseanibalgonzalez/hermes-analysis-bot" target="_blank" class="card-hover block bg-slate-800 rounded-3xl overflow-hidden group">
+                    <div class="h-2 bg-gradient-to-r from-amber-400 to-orange-400"></div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-6">
+                            <div>
+                                <h3 class="text-2xl font-semibold">Hermes Analysis Bot</h3>
+                                <p class="text-amber-400 text-sm">Análisis Avanzado</p>
+                            </div>
+                            <i class="fas fa-chart-line text-4xl text-slate-600 group-hover:text-amber-400 transition-colors"></i>
+                        </div>
+                        <p class="text-slate-400 line-clamp-4">Asistente analítico para procesamiento y visualización de grandes volúmenes de datos.</p>
+                        <div class="mt-8 text-xs uppercase tracking-widest text-slate-500 flex items-center gap-2">
+                            <span class="px-3 py-1 bg-slate-700 rounded-full">Data Science</span>
+                            <span class="px-3 py-1 bg-slate-700 rounded-full">AI</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Visual -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-4xl font-semibold mb-12 text-center">Roadmap Profesional 2026-2027</h2>
+            <div class="relative max-w-2xl mx-auto">
+                <div class="absolute left-8 top-0 bottom-0 w-px bg-slate-200"></div>
+                <div class="space-y-12 relative">
+                    <div class="flex gap-8">
+                        <div class="w-16 h-16 flex-shrink-0 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-xl font-bold">Q3<br>26</div>
+                        <div>
+                            <h4 class="font-semibold text-xl">Certificaciones Avanzadas en IA</h4>
+                            <p class="text-slate-600">Deep Learning • Ethical AI • Cloud Security</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-8">
+                        <div class="w-16 h-16 flex-shrink-0 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-xl font-bold">Q1<br>27</div>
+                        <div>
+                            <h4 class="font-semibold text-xl">Publicación de Papers y Herramientas Open Source</h4>
+                            <p class="text-slate-600">Contribuciones a la comunidad de Ciberseguridad e IA</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-8">
+                        <div class="w-16 h-16 flex-shrink-0 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-xl font-bold">2027</div>
+                        <div>
+                            <h4 class="font-semibold text-xl">Proyecto Capstone / Posgrado</h4>
+                            <p class="text-slate-600">Desarrollo de soluciones enterprise-grade en IA aplicada a Ciberseguridad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <footer class="bg-slate-900 text-slate-400 py-16">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <div class="max-w-lg mx-auto">
+                <h3 class="text-white font-semibold mb-4">Disclaimer Legal</h3>
+                <p class="text-sm leading-relaxed">
+                    Los proyectos aquí presentados forman parte de mi portafolio académico y de investigación personal. 
+                    Se trata de trabajos de aprendizaje, prototipos y experimentación en los ámbitos de Inteligencia Artificial, 
+                    Automatización y Ciberseguridad. No representan productos comerciales ni garantías de rendimiento en entornos productivos.
+                </p>
+                <p class="mt-8 text-xs">© 2026 José Anibal González Cubilette • Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        tailwind.config = {
+            content: [],
+            theme: { extend: {} }
+        }
+    </script>
+</body>
+</html>
